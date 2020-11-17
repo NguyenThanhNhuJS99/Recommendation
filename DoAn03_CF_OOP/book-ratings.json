@@ -1,0 +1,852 @@
+[
+    {
+        "User-ID": "1",
+        "ISBN": "0195153448",
+        "Book-Rating": "0"
+    },
+    {
+        "User-ID": "2",
+        "ISBN": "0195153448",
+        "Book-Rating": "4"
+    },
+    {
+        "User-ID": "3",
+        "ISBN": "0195153448",
+        "Book-Rating": "1"
+    },    
+    {
+        "User-ID": "4",
+        "ISBN": "0195153448",
+        "Book-Rating": "2"
+    },    
+    {
+        "User-ID": "5",
+        "ISBN": "0195153448",
+        "Book-Rating": "2"
+    },
+    {
+        "User-ID": "10",
+        "ISBN": "0195153448",
+        "Book-Rating": "3"
+    },    
+    {
+        "User-ID": "15",
+        "ISBN": "0195153448",
+        "Book-Rating": "5"
+    },
+    {
+        "User-ID": "3",
+        "ISBN": "0002005018",
+        "Book-Rating": "3"
+    },
+    {
+        "User-ID": "5",
+        "ISBN": "0002005018",
+        "Book-Rating": "4"
+    },
+    {
+        "User-ID": "7",
+        "ISBN": "0002005018",
+        "Book-Rating": "2"
+    },
+    {
+        "User-ID": "8",
+        "ISBN": "0002005018",
+        "Book-Rating": "5"
+    },  
+    {
+        "User-ID": "13",
+        "ISBN": "0002005018",
+        "Book-Rating": "4"
+    },
+    {
+        "User-ID": "15",
+        "ISBN": "0002005018",
+        "Book-Rating": "1"
+    },
+    {
+        "User-ID": "2",
+        "ISBN": "0060973129",
+        "Book-Rating": "5"
+    },
+    {
+        "User-ID": "4",
+        "ISBN": "0060973129",
+        "Book-Rating": "0"
+    },
+    {
+        "User-ID": "5",
+        "ISBN": "0060973129",
+        "Book-Rating": "2"
+    },
+    {
+        "User-ID": "6",
+        "ISBN": "0060973129",
+        "Book-Rating": "3"
+    },
+    {
+        "User-ID": "7",
+        "ISBN": "0060973129",
+        "Book-Rating": "2"
+    },
+    {
+        "User-ID": "10",
+        "ISBN": "0060973129",
+        "Book-Rating": "0"
+    },
+    {
+        "User-ID": "12",
+        "ISBN": "0060973129",
+        "Book-Rating": "1"
+    },
+    {
+        "User-ID": "13",
+        "ISBN": "0060973129",
+        "Book-Rating": "5"
+    },
+    {
+        "User-ID": "1",
+        "ISBN": "0374157065",
+        "Book-Rating": "1"
+    },
+    {
+        "User-ID": "4",
+        "ISBN": "0374157065",
+        "Book-Rating": "1"
+    },
+    {
+        "User-ID": "7",
+        "ISBN": "0374157065",
+        "Book-Rating": "3"
+    },
+    {
+        "User-ID": "9",
+        "ISBN": "0374157065",
+        "Book-Rating": "5"
+    },
+    {
+        "User-ID": "15",
+        "ISBN": "0374157065",
+        "Book-Rating": "3"
+    },
+    {
+        "User-ID": "11",
+        "ISBN": "0374157065",
+        "Book-Rating": "2"
+    },
+    {
+        "User-ID": "14",
+        "ISBN": "0374157065",
+        "Book-Rating": "3"
+    },
+    {
+        "User-ID": "2",
+        "ISBN": "0374157065",
+        "Book-Rating": "5"
+    },
+    {
+        "User-ID": "2",
+        "ISBN": "0393045218",
+        "Book-Rating": "3"
+    },
+    {
+        "User-ID": "3",
+        "ISBN": "0393045218",
+        "Book-Rating": "1"
+    },
+    {
+        "User-ID": "4",
+        "ISBN": "0393045218",
+        "Book-Rating": "2"
+    },
+    {
+        "User-ID": "15",
+        "ISBN": "0393045218",
+        "Book-Rating": "0"
+    },
+    {
+        "User-ID": "5",
+        "ISBN": "0393045218",
+        "Book-Rating": "3"
+    },
+    {
+        "User-ID": "6",
+        "ISBN": "0393045218",
+        "Book-Rating": "2"
+    },
+    {
+        "User-ID": "8",
+        "ISBN": "0399135782",
+        "Book-Rating": "3"
+    },
+    {
+        "User-ID": "11",
+        "ISBN": "0399135782",
+        "Book-Rating": "4"
+    },
+    {
+        "User-ID": "12",
+        "ISBN": "0399135782",
+        "Book-Rating": "2"
+    },
+    {
+        "User-ID": "14",
+        "ISBN": "0399135782",
+        "Book-Rating": "4"
+    },
+    {
+        "User-ID": "9",
+        "ISBN": "0399135782",
+        "Book-Rating": "1"
+    },
+    {
+        "User-ID": "3",
+        "ISBN": "0425176428",
+        "Book-Rating": "2"
+    },
+    {
+        "User-ID": "5",
+        "ISBN": "0425176428",
+        "Book-Rating": "1"
+    },
+    {
+        "User-ID": "6",
+        "ISBN": "0425176428",
+        "Book-Rating": "3"
+    },
+    {
+        "User-ID": "7",
+        "ISBN": "0425176428",
+        "Book-Rating": "4"
+    },
+    {
+        "User-ID": "9",
+        "ISBN": "0425176428",
+        "Book-Rating": "0"
+    },
+    {
+        "User-ID": "15",
+        "ISBN": "0425176428",
+        "Book-Rating": "2"
+    },
+    {
+        "User-ID": "1",
+        "ISBN": "0671870432",
+        "Book-Rating": "2"
+    },
+    {
+        "User-ID": "3",
+        "ISBN": "0671870432",
+        "Book-Rating": "4"
+    },
+    {
+        "User-ID": "5",
+        "ISBN": "0671870432",
+        "Book-Rating": "5"
+    },
+    {
+        "User-ID": "11",
+        "ISBN": "0671870432",
+        "Book-Rating": "1"
+    },
+    {
+        "User-ID": "12",
+        "ISBN": "0671870432",
+        "Book-Rating": "3"
+    },
+    {
+        "User-ID": "14",
+        "ISBN": "0671870432",
+        "Book-Rating": "2"
+    },
+    {
+        "User-ID": "1",
+        "ISBN": "0679425608",
+        "Book-Rating": "0"
+    },
+    {
+        "User-ID": "2",
+        "ISBN": "0679425608",
+        "Book-Rating": "4"
+    },
+    {
+        "User-ID": "3",
+        "ISBN": "0679425608",
+        "Book-Rating": "2"
+    },
+    {
+        "User-ID": "4",
+        "ISBN": "0679425608",
+        "Book-Rating": "4"
+    },
+    {
+        "User-ID": "5",
+        "ISBN": "0679425608",
+        "Book-Rating": "2"
+    },
+    {
+        "User-ID": "8",
+        "ISBN": "0679425608",
+        "Book-Rating": "1"
+    },
+    {
+        "User-ID": "8",
+        "ISBN": "074322678X",
+        "Book-Rating": "5"
+    },
+    {
+        "User-ID": "11",
+        "ISBN": "074322678X",
+        "Book-Rating": "4"
+    },
+    {
+        "User-ID": "10",
+        "ISBN": "074322678X",
+        "Book-Rating": "3"
+    },
+    {
+        "User-ID": "14",
+        "ISBN": "074322678X",
+        "Book-Rating": "3"
+    },
+    {
+        "User-ID": "15",
+        "ISBN": "074322678X",
+        "Book-Rating": "5"
+    },
+    {
+        "User-ID": "1",
+        "ISBN": "0771074670",
+        "Book-Rating": "2"
+    },
+    {
+        "User-ID": "3",
+        "ISBN": "0771074670",
+        "Book-Rating": "2"
+    },
+    {
+        "User-ID": "8",
+        "ISBN": "0771074670",
+        "Book-Rating": "0"
+    },
+    {
+        "User-ID": "10",
+        "ISBN": "0771074670",
+        "Book-Rating": "5"
+    },
+    {
+        "User-ID": "11",
+        "ISBN": "0771074670",
+        "Book-Rating": "5"
+    },
+    {
+        "User-ID": "12",
+        "ISBN": "0771074670",
+        "Book-Rating": "1"
+    },
+    {
+        "User-ID": "2",
+        "ISBN": "080652121X",
+        "Book-Rating": "1"
+    },
+    {
+        "User-ID": "3",
+        "ISBN": "080652121X",
+        "Book-Rating": "5"
+    },
+    {
+        "User-ID": "4",
+        "ISBN": "080652121X",
+        "Book-Rating": "3"
+    },
+    {
+        "User-ID": "6",
+        "ISBN": "080652121X",
+        "Book-Rating": "2"
+    },
+    {
+        "User-ID": "9",
+        "ISBN": "080652121X",
+        "Book-Rating": "0"
+    },
+    {
+        "User-ID": "7",
+        "ISBN": "0887841740",
+        "Book-Rating": "3"
+    },
+    {
+        "User-ID": "9",
+        "ISBN": "0887841740",
+        "Book-Rating": "3"
+    },
+    {
+        "User-ID": "11",
+        "ISBN": "0887841740",
+        "Book-Rating": "1"
+    },
+    {
+        "User-ID": "12",
+        "ISBN": "0887841740",
+        "Book-Rating": "3"
+    },
+    {
+        "User-ID": "13",
+        "ISBN": "0887841740",
+        "Book-Rating": "2"
+    },
+    {
+        "User-ID": "10",
+        "ISBN": "1552041778",
+        "Book-Rating": "3"
+    },
+    {
+        "User-ID": "11",
+        "ISBN": "1552041778",
+        "Book-Rating": "5"
+    },
+    {
+        "User-ID": "3",
+        "ISBN": "1552041778",
+        "Book-Rating": "2"
+    },
+    {
+        "User-ID": "5",
+        "ISBN": "1552041778",
+        "Book-Rating": "3"
+    },
+    {
+        "User-ID": "8",
+        "ISBN": "1552041778",
+        "Book-Rating": "1"
+    },
+    {
+        "User-ID": "15",
+        "ISBN": "1552041778",
+        "Book-Rating": "3"
+    },
+    {
+        "User-ID": "1",
+        "ISBN": "1552041778",
+        "Book-Rating": "5"
+    },
+    {
+        "User-ID": "8",
+        "ISBN": "1558746218",
+        "Book-Rating": "5"
+    },
+    {
+        "User-ID": "3",
+        "ISBN": "1558746218",
+        "Book-Rating": "2"
+    },
+    {
+        "User-ID": "11",
+        "ISBN": "1558746218",
+        "Book-Rating": "4"
+    },
+    {
+        "User-ID": "15",
+        "ISBN": "1558746218",
+        "Book-Rating": "2"
+    },
+    {
+        "User-ID": "2",
+        "ISBN": "1558746218",
+        "Book-Rating": "4"
+    },
+    {
+        "User-ID": "2",
+        "ISBN": "1567407781",
+        "Book-Rating": "2"
+    },
+    {
+        "User-ID": "5",
+        "ISBN": "1567407781",
+        "Book-Rating": "2"
+    },
+    {
+        "User-ID": "9",
+        "ISBN": "1567407781",
+        "Book-Rating": "5"
+    },
+    {
+        "User-ID": "12",
+        "ISBN": "1567407781",
+        "Book-Rating": "4"
+    },
+    {
+        "User-ID": "14",
+        "ISBN": "1567407781",
+        "Book-Rating": "5"
+    },
+    {
+        "User-ID": "1",
+        "ISBN": "1575663937",
+        "Book-Rating": "5"
+    },
+    {
+        "User-ID": "5",
+        "ISBN": "1575663937",
+        "Book-Rating": "2"
+    },
+    {
+        "User-ID": "7",
+        "ISBN": "1575663937",
+        "Book-Rating": "4"
+    },
+    {
+        "User-ID": "8",
+        "ISBN": "1575663937",
+        "Book-Rating": "0"
+    },
+    {
+        "User-ID": "12",
+        "ISBN": "1575663937",
+        "Book-Rating": "2"
+    },
+    {
+        "User-ID": "2",
+        "ISBN": "1881320189",
+        "Book-Rating": "4"
+    },
+    {
+        "User-ID": "4",
+        "ISBN": "1881320189",
+        "Book-Rating": "1"
+    },
+    {
+        "User-ID": "5",
+        "ISBN": "1881320189",
+        "Book-Rating": "3"
+    },
+    {
+        "User-ID": "7",
+        "ISBN": "1881320189",
+        "Book-Rating": "2"
+    },
+    {
+        "User-ID": "8",
+        "ISBN": "1881320189",
+        "Book-Rating": "4"
+    },
+    {
+        "User-ID": "13",
+        "ISBN": "1881320189",
+        "Book-Rating": "5"
+    },
+    {
+        "User-ID": "13",
+        "ISBN": "0440234743",
+        "Book-Rating": "1"
+    },
+    {
+        "User-ID": "14",
+        "ISBN": "0440234743",
+        "Book-Rating": "2"
+    },
+    {
+        "User-ID": "15",
+        "ISBN": "0440234743",
+        "Book-Rating": "1"
+    },
+    {
+        "User-ID": "2",
+        "ISBN": "0440234743",
+        "Book-Rating": "2"
+    },
+    {
+        "User-ID": "1",
+        "ISBN": "0440234743",
+        "Book-Rating": "5"
+    },
+    {
+        "User-ID": "1",
+        "ISBN": "0452264464",
+        "Book-Rating": "3"
+    },
+    {
+        "User-ID": "3",
+        "ISBN": "0452264464",
+        "Book-Rating": "3"
+    },
+    {
+        "User-ID": "81",
+        "ISBN": "0452264464",
+        "Book-Rating": "2"
+    },
+    {
+        "User-ID": "5",
+        "ISBN": "0452264464",
+        "Book-Rating": "4"
+    },
+    {
+        "User-ID": "14",
+        "ISBN": "0452264464",
+        "Book-Rating": "2"
+    },
+    {
+        "User-ID": "12",
+        "ISBN": "0609804618",
+        "Book-Rating": "4"
+    },
+    {
+        "User-ID": "14",
+        "ISBN": "0609804618",
+        "Book-Rating": "5"
+    },
+    {
+        "User-ID": "15",
+        "ISBN": "0609804618",
+        "Book-Rating": "3"
+    },
+    {
+        "User-ID": "2",
+        "ISBN": "0609804618",
+        "Book-Rating": "2"
+    },
+    {
+        "User-ID": "5",
+        "ISBN": "0609804618",
+        "Book-Rating": "5"
+    },
+    {
+        "User-ID": "7",
+        "ISBN": "0609804618",
+        "Book-Rating": "4"
+    },
+    {
+        "User-ID": "1",
+        "ISBN": "1841721522",
+        "Book-Rating": "1"
+    },
+    {
+        "User-ID": "5",
+        "ISBN": "1841721522",
+        "Book-Rating": "4"
+    },
+    {
+        "User-ID": "6",
+        "ISBN": "1841721522",
+        "Book-Rating": "2"
+    },
+    {
+        "User-ID": "9",
+        "ISBN": "1841721522",
+        "Book-Rating": "2"
+    },
+    {
+        "User-ID": "13",
+        "ISBN": "1841721522",
+        "Book-Rating": "1"
+    },
+    {
+        "User-ID": "15",
+        "ISBN": "1879384493",
+        "Book-Rating": "5"
+    },
+    {
+        "User-ID": "4",
+        "ISBN": "1879384493",
+        "Book-Rating": "1"
+    },
+    {
+        "User-ID": "6",
+        "ISBN": "1879384493",
+        "Book-Rating": "2"
+    },
+    {
+        "User-ID": "8",
+        "ISBN": "1879384493",
+        "Book-Rating": "2"
+    },
+    {
+        "User-ID": "10",
+        "ISBN": "1879384493",
+        "Book-Rating": "4"
+    },
+    {
+        "User-ID": "10",
+        "ISBN": "0061076031",
+        "Book-Rating": "5"
+    },
+    {
+        "User-ID": "14",
+        "ISBN": "0061076031",
+        "Book-Rating": "2"
+    },
+    {
+        "User-ID": "3",
+        "ISBN": "0061076031",
+        "Book-Rating": "0"
+    },
+    {
+        "User-ID": "4",
+        "ISBN": "0061076031",
+        "Book-Rating": "4"
+    },
+    {
+        "User-ID": "9",
+        "ISBN": "0061076031",
+        "Book-Rating": "3"
+    },
+    {
+        "User-ID": "1",
+        "ISBN": "0439095026",
+        "Book-Rating": "5"
+    },
+    {
+        "User-ID": "2",
+        "ISBN": "0439095026",
+        "Book-Rating": "2"
+    },
+    {
+        "User-ID": "4",
+        "ISBN": "0439095026",
+        "Book-Rating": "2"
+    },
+    {
+        "User-ID": "7",
+        "ISBN": "0439095026",
+        "Book-Rating": "4"
+    },
+    {
+        "User-ID": "13",
+        "ISBN": "0439095026",
+        "Book-Rating": "4"
+    },
+    {
+        "User-ID": "5",
+        "ISBN": "0689821166",
+        "Book-Rating": "2"
+    },
+    {
+        "User-ID": "6",
+        "ISBN": "0689821166",
+        "Book-Rating": "4"
+    },
+    {
+        "User-ID": "7",
+        "ISBN": "0689821166",
+        "Book-Rating": "3"
+    },
+    {
+        "User-ID": "8",
+        "ISBN": "0689821166",
+        "Book-Rating": "1"
+    },
+    {
+        "User-ID": "9",
+        "ISBN": "0689821166",
+        "Book-Rating": "4"
+    },
+    {
+        "User-ID": "10",
+        "ISBN": "0971880107",
+        "Book-Rating": "4"
+    },
+    {
+        "User-ID": "13",
+        "ISBN": "0971880107",
+        "Book-Rating": "2"
+    },
+    {
+        "User-ID": "11",
+        "ISBN": "0971880107",
+        "Book-Rating": "5"
+    },
+    {
+        "User-ID": "12",
+        "ISBN": "0971880107",
+        "Book-Rating": "1"
+    },
+    {
+        "User-ID": "14",
+        "ISBN": "0971880107",
+        "Book-Rating": "3"
+    },
+    {
+        "User-ID": "15",
+        "ISBN": "0345402871",
+        "Book-Rating": "5"
+    },
+    {
+        "User-ID": "11",
+        "ISBN": "0345402871",
+        "Book-Rating": "2"
+    },
+    {
+        "User-ID": "7",
+        "ISBN": "0345402871",
+        "Book-Rating": "4"
+    },
+    {
+        "User-ID": "5",
+        "ISBN": "0345402871",
+        "Book-Rating": "3"
+    },
+    {
+        "User-ID": "4",
+        "ISBN": "0345402871",
+        "Book-Rating": "0"
+    },
+    {
+        "User-ID": "4",
+        "ISBN": "0345417623",
+        "Book-Rating": "3"
+    },
+    {
+        "User-ID": "6",
+        "ISBN": "0345417623",
+        "Book-Rating": "5"
+    },
+    {
+        "User-ID": "8",
+        "ISBN": "0345417623",
+        "Book-Rating": "2"
+    },
+    {
+        "User-ID": "9",
+        "ISBN": "0345417623",
+        "Book-Rating": "1"
+    },
+    {
+        "User-ID": "14",
+        "ISBN": "0345417623",
+        "Book-Rating": "5"
+    },
+    {
+        "User-ID": "15",
+        "ISBN": "0684823802",
+        "Book-Rating": "2"
+    },
+    {
+        "User-ID": "2",
+        "ISBN": "0684823802",
+        "Book-Rating": "2"
+    },
+    {
+        "User-ID": "6",
+        "ISBN": "0684823802",
+        "Book-Rating": "2"
+    },
+    {
+        "User-ID": "7",
+        "ISBN": "0684823802",
+        "Book-Rating": "3"
+    },
+    {
+        "User-ID": "8",
+        "ISBN": "0684823802",
+        "Book-Rating": "1"
+    },
+    {
+        "User-ID": "9",
+        "ISBN": "0684823802",
+        "Book-Rating": "5"
+    },
+    {
+        "User-ID": "12",
+        "ISBN": "0684823802",
+        "Book-Rating": "3"
+    }
+]
