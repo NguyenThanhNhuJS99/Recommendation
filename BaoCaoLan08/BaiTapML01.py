@@ -107,6 +107,7 @@ class CollaborativeFiltering:
     def __init__(self, df_ustd):
         self.df_std = df_ustd.apply(lambda x: Cosine(x).Standardize()).T #Chuẩn hóa giá trị của từng dòng
         self.df = df_ustd
+        print(self.df_std)
     def CosineCalculate(self):
         sparse_df = sparse.csr_matrix(self.df_std.values)
         self.corrMatrix = pd.DataFrame(cosine_similarity(sparse_df),index=self.df_std.T.columns,columns=self.df_std.T.columns)
@@ -127,16 +128,37 @@ class CollaborativeFiltering:
         for isbn,rating in ratings:
             self.similar_scores = self.similar_scores.append(self.Get_Similar_Score(isbn,rating),ignore_index = True)
         return self.similar_scores.sum().sort_values(ascending=False).head()
-    def MAE(self):
+    def MAE(self, dist_func):
         temp = self.similar_scores.T
         sparse_df = sparse.csr_matrix(temp.values)
-        temp2 = pd.DataFrame(cosine_similarity(sparse_df),index=temp.T.columns,columns=temp.T.columns)
-        return mean_absolute_error(self.corrMatrix, temp2)
-    def RMSE(self):
+        if(dist_func == 'cosine'):
+            temp2 = pd.DataFrame(cosine_similarity(sparse_df),index=temp.T.columns,columns=temp.T.columns)
+            return mean_absolute_error(self.corrMatrix, temp2)
+        if(dist_func == 'pearson'):
+            temp2 = self.similar_scores.corr(method='pearson')
+            return mean_absolute_error(self.corrMatrix, temp2)
+        if(dist_func == 'spearman'):
+            temp2 = self.similar_scores.corr(method='spearman')
+            return mean_absolute_error(self.corrMatrix, temp2)
+        if(dist_func == 'kendall'):
+            temp2 = self.similar_scores.corr(method='kendall')
+            return mean_absolute_error(self.corrMatrix, temp2)
+    def RMSE(self, dist_func):
         temp = self.similar_scores.T
         sparse_df = sparse.csr_matrix(temp.values)
-        temp2 = pd.DataFrame(cosine_similarity(sparse_df),index=temp.T.columns,columns=temp.T.columns)
-        return mean_squared_error(self.corrMatrix, temp2, squared=False)
+        if(dist_func == 'cosine'):
+            temp2 = pd.DataFrame(cosine_similarity(sparse_df),index=temp.T.columns,columns=temp.T.columns)
+            return mean_squared_error(self.corrMatrix, temp2, squared=False)
+        if(dist_func == 'pearson'):
+            temp2 = self.similar_scores.corr(method='pearson')
+            return mean_squared_error(self.corrMatrix, temp2, squared=False)
+        if(dist_func == 'spearman'):
+            temp2 = self.similar_scores.corr(method='spearman')
+            return mean_squared_error(self.corrMatrix, temp2, squared=False)
+        if(dist_func == 'kendall'):
+            temp2 = self.similar_scores.corr(method='kendall')
+            return mean_squared_error(self.corrMatrix, temp2, squared=False)
+        
 
 dataframeUser = pd.read_json("users.json")
 dataframeBook = pd.read_json("books.json")
@@ -153,6 +175,7 @@ book_data = pd.merge(test, dataframeBook,on='ISBN')
 
 user_book_rating = user_ratings_data.pivot_table(index='UserId', columns='ISBN', values='Rating')
 user_book_rating.fillna(0, inplace=True);
+print(user_book_rating)
 # size_Train = int(len(user_book_rating)*0.8)
 # train_model = user_book_rating[:size_Train]
 # test_model = user_book_rating[size_Train:]
@@ -160,7 +183,7 @@ user_book_rating.fillna(0, inplace=True);
 
 
 # ,("0061076031",5),("1567407781",5),("1881320189",5)
-user = [(1,5),(2,3),(99,3),(15,1),(3,1),(4,2),(5,5)]
+user = [(1,5),(2,3)]
 
 CF = CollaborativeFiltering(user_book_rating);
 CF.CosineCalculate();
@@ -168,24 +191,24 @@ print(user)
 print('Dự đoán với độ tương đồng cosine')
 print('---------------------------')
 print(CF.Recommend(user));
-print("RMSE: " + str(CF.RMSE()))
-print("MAE: " + str(CF.MAE()))
+print("RMSE: " + str(CF.RMSE('cosine')))
+print("MAE: " + str(CF.MAE('cosine')))
 print('------------------------------')
 CF.PearsonCalculate();
 print('Dự đoán với độ tương đồng PCC(Pearson Correclation Coefficient)')
 print('---------------------')
 print(CF.Recommend(user));
-print("RMSE: " + str(CF.RMSE()))
-print("MAE: " + str(CF.MAE()))
+print("RMSE: " + str(CF.RMSE('pearson')))
+print("MAE: " + str(CF.MAE('pearson')))
 CF.SpearmanCalculate();
 print('Dự đoán với độ tương đồng SRC(Spearman Rank Coefficient)')
 print('---------------------')
 print(CF.Recommend(user));
-print("RMSE: " + str(CF.RMSE()))
-print("MAE: " + str(CF.MAE()))
+print("RMSE: " + str(CF.RMSE('spearman')))
+print("MAE: " + str(CF.MAE('spearman')))
 CF.KendallCalculate();
 print('Dự đoán với độ tương đồng KCC(Kendall Tau correlation coefficient)')
 print('---------------------')
 print(CF.Recommend(user));
-print("RMSE: " + str(CF.RMSE()))
-print("MAE: " + str(CF.MAE()))
+print("RMSE: " + str(CF.RMSE('kendall')))
+print("MAE: " + str(CF.MAE('kendall')))
